@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
-
+em{
+  color: red;
+}
 body{
 padding: 0%;
 margin: 0%;
@@ -14,48 +16,79 @@ color: rgba(0, 0, 0, 0.8);
   padding: 0;
 }
 
+
+
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 15px;
-    background-color: rgb(247, 246, 250);
-    color: #020202;
+    background-color: #4c1ea8;
+    border-radius: 5px;
+   border-color: blue;
+   
     
+
   }
-.nav ul li{
+  
+.nav-link ul li{
     display: flex;
     list-style: none;
-    width: 200px;
-    padding: 0px 20px;
+    width: 10px;
+    padding: 0px 10px;
+    display: inline;
    
 
+}
+
+ul > li {
+  display: inline;
+  padding: 0px 10px;
+  text-decoration: none;
+  
 }
 .logo{
     font-size: 32;
+    padding: 20px;
 }
 
-#intro {
-    border-radius: 100px 0 0 0;
-    height: 500px;
-    width:70%;
-  padding: 50px;
-    float:left;
+
+.landing {
+  display: flex;
 }
-#profile {
-    border-radius: 0 0 100px 0;
-    height: 500px;
-    width:30%;
-   padding: 50px;
-    float:right;
-   
+
+.intro {
+  flex: 1;
+ 
+  padding: 30px;
+}  
+
+.profile {
+  padding-top: 50px;
+  margin-right: 200px;
+} 
+.prof{
+  vertical-align: middle;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
 }
+
+
 .button{
-    width: 25px;
-    background-color: green;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  display: inline;
+  margin: 6px 4px;
+  font-size: 16px;
+  height: 30px;
+  width: auto;
+
 }
-#nav-links {
-	margin: 10px;
-	width: 900px;
-	font-family: sans-serif;
+
+.social{
+  border-radius: 10px;
+ 
+  padding: 0px 10px;
 }

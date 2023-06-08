@@ -27,8 +27,8 @@ a {
     align-items: center;
     justify-content: space-between;
        background-color: #f8f6f3;
-       border: 1px solid black;
-       height: 40px;
+       box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+       height: 50px;
   padding: 10px;
 
   }
@@ -39,6 +39,7 @@ a {
     width: 10px;
     padding: 0px 10px;
     display: inline;
+    text-transform: uppercase;
     
    
 
@@ -53,7 +54,8 @@ ul > li {
 }
 .logo{
     font-size: 32;
-    padding: 20px;
+    padding: 30px;
+    font-weight: bold;
 }
 
 
@@ -65,7 +67,7 @@ ul > li {
 .intro {
   flex: 1;
  align-content: center;
-  padding: 50px;
+  padding: 100px;
 }  
 
 .profile {
@@ -79,8 +81,10 @@ ul > li {
   border-radius: 50%;
 }
 
-fa fa-github fa-2x{
+#icons{
   border: 1px solid black;
+  width: 26px;
+  border-radius: 5px;
 }
 .button{
   background-color: red;
